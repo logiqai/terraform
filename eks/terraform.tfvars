@@ -1,7 +1,7 @@
 node_groups ={
        "firstone"= {
         node_group_name = "firstone"
-        node_role_arn = "arn:aws:iam::252623115636:role/eks-worker-nodegrp"
+        node_role_arn = "arn:aws:iam::XXXXXXXX:role/eks-worker-nodegrp"
         disk_size = "20"
         instance_types = ["r5a.large"]
         desired_size = "2"
@@ -13,7 +13,7 @@ node_groups ={
         },
         "secondone"= {
            node_group_name = "secondone"
-           node_role_arn   = "arn:aws:iam::252623115636:role/eks-worker-nodegrp"
+           node_role_arn   = "arn:aws:iam::XXXXXXXXXX:role/eks-worker-nodegrp"
            disk_size      = "20"
            instance_types = ["c5.2xlarge"]
            desired_size = "2"
